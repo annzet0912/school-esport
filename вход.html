@@ -1,0 +1,49 @@
+<html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация и вход</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 300px;
+            margin: 0 auto;
+ padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<div class="form-container">
+        <h2>Вход</h2>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Пароль" required>
+            <button type="submit">Войти</button>
+        </form>
+    </div>
+</body>
+</html>
